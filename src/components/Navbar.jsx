@@ -1,14 +1,15 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
   return (
     <nav className='flex justify-between items-center p-5 gap-3'>
-        <h1 className='text-5xl font-bold'>AS</h1>
+        <Link href={'/'} className='text-5xl font-bold'>AS</Link>
         <ul className='flex justify-center gap-3 text-xl'>
-            <li>inicio</li>
-            <li>sobre mi</li>
-            <li>proyectos</li>
-            <li>contacto</li>
+            <Link href={'/'}>inicio</Link>
+            <Link href={'/sobre-mi'}>sobre mi</Link>
+            <Link href={'/proyectos'}>proyectos</Link>
+            <Link href={'/contacto'}>contacto</Link>
         </ul>
     </nav>
   )

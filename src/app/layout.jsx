@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <header>
         <Navbar />
       </header>
-      <main>{children}</main>
+      <main className="px-48 py-48">{children}</main>
     </body>
   </html>
   );
