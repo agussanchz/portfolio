@@ -8,12 +8,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-    <body className="px-48 py-14">
+    <html lang="en" className="bg-slate-50">
+    <body className="px-96 py-14">
       <header>
         <Navbar />
       </header>
-      <main className="px-48 py-48">{children}</main>
+      <main className="px-36 py-48">{children}</main>
     </body>
   </html>
   );
