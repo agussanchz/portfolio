@@ -9,12 +9,13 @@ export default function Home() {
           <Image
             src={'/imgAvatar.jpg'}
             alt={'avatar de mi perfil'}
-            width={120}
+            width={100}
             height={510}
             className="rounded-full"
           />
         </div>
-        <h1 className=" text-7xl font-bold">Hola! Soy Agustin</h1>
+        <h1 className=" text-9xl font-bold">Hola! Soy</h1>
+        <span className=" text-9xl font-bold">Agustin</span>
         <p className="text-4xl">Frontend developer de Argentina</p>
         <span className="text-center border border-green-400 rounded-xl w-60 p-1 text-sm font-bold">Disponible para trabajar</span>
         <div className="flex gap-3">
