@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav className='flex justify-around items-center text-center gap-3 bg-[#1E1E1E] p-2 text-slate-100 rounded-2xl w-full'>
+    <nav className='flex justify-between items-center text-center gap-3'>
         <Link href={'/'} className='text-3xl'>As</Link>
         <ul className='flex justify-center gap-3 text-xl'>
             <Link href={'/'}>inicio</Link>
