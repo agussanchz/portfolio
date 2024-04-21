@@ -9,11 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-    <body className="px-96 py-14 bg-[#FAFAFA] text-black h-screen w-screen">
+    <body className="px-96 py-14 bg-[#212429] text-black h-screen w-screen">
       <header>
         <Navbar />
       </header>
-      <main className="px-36 py-48">{children}</main>
+      <main className="px-36 py-48 text-white">{children}</main>
     </body>
   </html>
   );
