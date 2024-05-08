@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Proyectos() {
     return (
-        <main className='py-20 flex flex-col gap-28'>
+        <main className='py-20 flex flex-col justify-center items-center gap-28'>
             <header className="flex justify-center items-center">
                 <Navbar />
             </header>
