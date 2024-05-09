@@ -3,13 +3,9 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav className='flex justify-around items-center text-center gap-3 bg-[#33363B] p-2 text-white rounded-full'>
-        <Link href={'/'} className='text-4xl'>AS</Link>
-        <ul className='flex justify-center gap-3 text-2xl'>
-            <Link href={'/'}>inicio</Link>
-            <Link href={'/sobre-mi'}>sobre mi</Link>
-            <Link href={'/proyectos'}>proyectos</Link>
-            <Link href={'/contacto'}>contacto</Link>
+    <nav className='shadow-2xl fixed shadow-[#524e4e] text-gray-400 bg-[#131414eb]  w-[30rem] p-3 rounded-full'>
+        <ul className='flex justify-center gap-3 text-lg font-medium'>
+            <Link href={'/'} className='hover:text-[#FFFFFF]'>Volver</Link>
         </ul>
     </nav>
   )
