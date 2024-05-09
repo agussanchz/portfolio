@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-5">
       <section className="h-screen lg:w-1/2 lg:px-10 lg:fixed left-0 top-0 flex justify-center items-center  text-white">
-        <article className="flex flex-col justify-center items-center p-20 rounded-2xl shadow-2xl shadow-[#524e4e]  gap-10 h-full w-full lg:h-[50rem] lg:w-[11/12] text-[#FFFFFF]  bg-[#131414eb]">
+        <article className="flex flex-col justify-center items-center p-20 rounded-2xl shadow-2xl shadow-[#524e4e]  gap-10 h-full w-full lg:h-[50rem] lg:w-11/12 xl:w-3/4 text-[#FFFFFF]  bg-[#131414eb]">
           <div className="flex flex-col gap-2 justify-center items-center text-wrap text-center">
             <Image
               src={'/imgAvatar.jpg'}
