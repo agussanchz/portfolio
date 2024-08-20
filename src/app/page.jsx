@@ -50,7 +50,7 @@ export default function Home() {
           <Link href={'/proyectos'} className="text-xl font-bold ">Ver todos los proyectos</Link>
         </div>
         <div className="bg-[#292727ca] w-11/12 lg:w-3/4   flex flex-col p-10 gap-2">
-          <p className='text-7xl'>Me gustaria realizar un proyecto juntos, <span className='text-[#b75591]'>contactame.</span></p>
+          <p className='text-5xl'>Me gustaria realizar un proyecto juntos, <span className='text-[#b75591]'>contactame.</span></p>
           <Link href={'/contacto'} className="text-xl font-bold ">Ir a contacto</Link>
         </div>
       </section>
